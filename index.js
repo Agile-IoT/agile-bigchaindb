@@ -9,14 +9,14 @@ var XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 * User Input Data *
 *******************/
 
-var agile_url = "http://192.168.8.60:8080/api/";// Input Agile-IoT API url
+var agile_url = "http://agile.local:8080";// Input Agile-IoT API url
 var deviceId = "ble247189079500"; // Input deviceId
 var bdb_url = "http://localhost:9984/api/v1/"; // Input bigchaindb API endpoint
 var passcode = 'Thisisapassword'; // Input a text password for device here (minimum 8 characters)
 
 
 // API URLs to be used
-var url_device = agile_url+"device/"+deviceId+"/";
+var url_device = agile_url+"/api/device/"+deviceId+"/";
 var url_bdb = bdb_url+"transactions/";
 console.log(url_device, "\n" +url_bdb);
 
