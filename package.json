@@ -1,0 +1,36 @@
+{
+  "name": "agile-bigchaindb",
+  "version": "1.0.0",
+  "description": "BigchainDB implementation for Agile IoT gateway",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agile-IoT/agile-bigchaindb.git"
+  },
+  "keywords": [
+    "IoT",
+    "blockchain",
+    "BigchainDB"
+  ],
+  "author": "salekali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agile-IoT/agile-bigchaindb/issues"
+  },
+  "homepage": "https://github.com/Agile-IoT/agile-bigchaindb#readme",
+  "dependencies": {
+    "bs58": "^4.0.0",
+    "buffer": "^5.0.2",
+    "clone": "^2.1.0",
+    "core-js": "^2.4.1",
+    "five-bells-condition": "=3.3.1",
+    "js-sha3": "^0.5.7",
+    "json-stable-stringify": "^1.0.1",
+    "tweetnacl": "^0.14.5",
+    "xmlhttprequest": "^1.8.0"
+  },
+}
